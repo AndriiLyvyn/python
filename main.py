@@ -275,3 +275,111 @@
 #     print("Średnia:", average)
 # else:
 #     print("Nie wprowadzono żadnych pomiarów")
+
+
+# def greet_student(name):
+#     return "Witaj, " + name + "!"
+#
+#
+# greeting1 = greet_student("Jan")
+# greeting2 = greet_student("Anna")
+#
+# print(greeting1)
+# print(greeting2)
+
+
+
+# def celsius_to_fahrenheit(celsius):
+#     fahrenheit = celsius * 9 / 5 + 32
+#     return fahrenheit
+#
+#
+# print(celsius_to_fahrenheit(0))
+# print(celsius_to_fahrenheit(20))
+# print(celsius_to_fahrenheit(100))
+
+
+# def calculate_mean(values):
+#     if len(values) > 0:
+#         mean = sum(values) / len(values)
+#         return mean
+#     else:
+#         return None
+#
+#
+# print(calculate_mean([2, 4, 6]))
+# print(calculate_mean([5]))
+# print(calculate_mean([]))
+
+# values = [4, 9, 2, 11, 9]
+# threshold = 8
+#
+# def values_above(values, threshold):
+#     result = []
+#
+#     for value in values:
+#         if value > threshold:
+#             result.append(value)
+#
+#     return result
+#
+#
+# print(values_above(values,threshold))
+
+
+# def summarize(values):
+#     if len(values) > 0:
+#         result = {
+#             "count": len(values),
+#             "minimum": min(values),
+#             "maximum": max(values),
+#             "mean": sum(values) / len(values)
+#         }
+#     else:
+#         result = {
+#             "count": 0,
+#             "minimum": None,
+#             "maximum": None,
+#             "mean": None
+#         }
+#
+#     return result
+#
+#
+# # Testowanie funkcji
+# numbers1 = [3, 7, 5, 9]
+# numbers2 = []
+#
+# summary1 = summarize(numbers1)
+# summary2 = summarize(numbers2)
+#
+# print(summary1)
+# print("Liczba elementów:", summary1["count"])
+#
+# print(summary2)
+# print("Liczba elementów:", summary2["count"])
+
+
+# def count_responses(responses):
+#     counts = {
+#         "yes": 0,
+#         "no": 0,
+#         "maybe": 0
+#     }
+#
+#     for response in responses:
+#         if response == "yes":
+#             counts["yes"] += 1
+#         elif response == "no":
+#             counts["no"] += 1
+#         elif response == "maybe":
+#             counts["maybe"] += 1
+#
+#     return counts
+#
+#
+# # Testowanie funkcji
+# responses = ["yes", "no", "yes", "maybe", "no", "yes"]
+#
+# print(count_responses(responses))
+# print(count_responses([]))
