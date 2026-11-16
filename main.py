@@ -67,3 +67,13 @@ age = int(input("Podaj swój wiek: "))
 
 print("Cześć,", name + "!")
 print("Masz,", age, "lat.")
+
+
+# Zadanie 7
+
+city = "Warsaw"
+
+print(city)
+print(len(city))
+print(city.upper())
+print(city.lower())
