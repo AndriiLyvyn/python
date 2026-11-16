@@ -199,3 +199,79 @@
 #     print("Kategoria jest dozwolona")
 # else:
 #     print("Kategoria nie jest dozwolona")
+
+
+# temperatures = [18, 20, 19, 22, 21]
+#
+# for tem in temperatures:
+#     print("Temperatures -", tem)
+
+
+# for number in range(1, 11):
+#     square = number *number
+#     print(number, "Kwadrat:", square)
+
+# #   Zadanie 18
+# sales = [10, 15, 8, 12, 5]
+#
+# total = 0
+#
+# for sale in sales:
+#     total = total + sale
+#
+# average = total / len(sales)
+#
+# print("Suma sprzedaży:", total)
+# print("Średnia sprzedaży:", average)
+
+
+# #   Zadanie 19
+# temperatures = [18, 25, 21, 27, 19, 25]
+#
+# count = 0
+#
+# for temperature in temperatures:
+#     if temperature > 24:
+#         count = count + 1
+#
+# print("Liczba temperatur większych niż 24:", count)
+
+
+# #   Zadanie 20
+#
+# measurements = [12, -1, 15, 0, -3, 18]
+#
+# clean_measurements = []
+#
+# for measurement in measurements:
+#     if measurement >= 0:
+#         clean_measurements.append(measurement)
+#
+# print("Lista pierwotna:", measurements)
+# print("Lista oczyszczona:", clean_measurements)
+#
+# average = sum(clean_measurements) / len(clean_measurements)
+#
+# print("Średnia:", average)
+
+
+
+# #   Zadanie 21
+# measurements = []
+#
+# while True:
+#     measurement = int(input("Podaj pomiar (-1 kończy): "))
+#
+#     if measurement == -1:
+#         break
+#
+#     measurements.append(measurement)
+#
+# print("Zebrane pomiary:", measurements)
+# print("Liczba pomiarów:", len(measurements))
+#
+# if len(measurements) > 0:
+#     average = sum(measurements) / len(measurements)
+#     print("Średnia:", average)
+# else:
+#     print("Nie wprowadzono żadnych pomiarów")
