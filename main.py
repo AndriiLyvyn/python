@@ -142,3 +142,60 @@
 # print("Minimum value:", minimum)
 # print("Maximum value:", maximum)
 # print("Average study time:", average)
+
+#  # Zadanie 13
+
+# observed_temperature = 24
+# target_temperature = 22
+#
+# print(observed_temperature> target_temperature)
+# print(observed_temperature< target_temperature)
+# print(observed_temperature== target_temperature)
+# print(observed_temperature>= target_temperature)
+
+
+# #  # Zadanie 14
+# scores = [49, 50, 80, 90]
+#
+# for x in scores:
+#     if(x>50):
+#         print("Good job:)",x)
+#     else:
+#         print("Try again :(" ,x)
+#
+
+#  # Zadanie 15
+# temperatures = [5, 10, 24, 25]
+#
+#
+# for temperature in temperatures:
+#     if temperature < 10:
+#         print(temperature, "- Cold")
+#     elif temperature >= 10 and temperature < 25:
+#         print(temperature, "- Moderate")
+#     else:
+#         print(temperature, "- Warm")
+
+#  # Zadanie 16
+
+# humidity_values = [-5, 0, 65, 100, 120]
+#
+# for humidity in humidity_values:
+#     if humidity >= 0 and humidity <= 100:
+#         print(humidity, "- Poprawny pomiar")
+#     else:
+#         print(humidity, "- Niepoprawny pomiar")
+
+
+
+# #   Zadanie 17
+# allowed_categories = ["low", "medium", "high"]
+#
+# category = input("Wpisz kategorię: ")
+#
+# category = category.strip().lower()
+#
+# if category in allowed_categories:
+#     print("Kategoria jest dozwolona")
+# else:
+#     print("Kategoria nie jest dozwolona")
